@@ -36,21 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-/* Estilos CSS personalizados para los botones */
-.custom-btn {
-  background-color: #023D9F; /* Color de fondo azul */
-  color: #fff; /* Color del texto blanco */
-  border: 2px solid #fff; /* Borde blanco */
-  border-radius: 20px; /* Forma redondeada */
-  padding: 10px 20px; /* Ajustar el espaciado interno para hacer los botones más amplios */
-  margin-right: 15px; /* Espacio entre botones */
-  letter-spacing: 1px; /* Aumentar el espaciado entre las letras */
-}
-
-/* Estilos CSS para cambiar el color de fondo al pasar el ratón sobre los botones */
-.custom-btn:hover {
-  background-color: #023D9F; /* Mantener el fondo azul al pasar el ratón */
-  color: #05DBF2; /* Cambiar el color del texto al pasar el ratón */
-}
-

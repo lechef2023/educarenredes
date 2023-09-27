@@ -7,9 +7,10 @@ function Bibliografia() {
       <h1>Bibliografía</h1>
       <Card>
         <Card.Body>
-          <Card.Title>Contenido de la tarjeta</Card.Title>
+          <Card.Title>Bibliografía</Card.Title>
           <Card.Text>
-            Este es el contenido de la tarjeta vinculada a la página de inicio.
+          <p>Fernández-Navajas, J. (2017). Telemática y redes de comunicaciones. Ediciones Alfaomega.</p>
+          <p>Shneiderman, B. (2016). Designing the user interface: Strategies for effective human-computer interaction. Pearson.</p>
           </Card.Text>
         </Card.Body>
       </Card>

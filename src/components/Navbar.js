@@ -7,7 +7,7 @@ function MiNavbar() {
   const navigate = useNavigate();
 
   return (
-    <div style={{ backgroundColor: '#184C78', minHeight: '50px' }}>
+    <div style={{ backgroundColor: '#96D6E0', minHeight: '50px' }}>
       <div className="d-flex justify-content-center align-items-center h-100">
         <Navbar bg="#023D9F" variant="dark" expand="lg">
           <Navbar.Toggle aria-controls="navbar-nav" />

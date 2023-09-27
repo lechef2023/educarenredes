@@ -1,24 +1,34 @@
-import logo from './logo.svg';
+
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Navbar from './components/Navbar';
+import Home from './Home';
+import ConceptosBasicos from './ConceptosBasicos';
+import IntroduccionaRedes from './IntroduccionaRedes';
+import Funcionamiento from './Funcionamiento';
+import Estructura from './components/Estructura';
+import Recursos from './components/Recursos';
+import Bibliografia from './Bibliografia';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/ConceptosBasicos" element={<ConceptosBasicos />} />
+          <Route path="/IntroduccionaRedes" element={<IntroduccionaRedes />} />
+          <Route path="/Funcionamiento" element={<Funcionamiento />} />
+          <Route path="/Estructura" element={<Estructura />} />
+          <Route path="/Recursos" element={<Recursos />} />
+          <Route path="/Bibliografia" element={<Bibliografia />} />
+
+          {/* Define otras rutas aquí */}
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

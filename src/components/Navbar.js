@@ -1,18 +1,28 @@
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import Navbar from 'react-bootstrap/Navbar';
+import Button from 'react-bootstrap/Button';
+import { useNavigate } from 'react-router-dom'; // Importa useNavigate
 
-function Navigation() {
+function MiNavbar() {
+  const navigate = useNavigate(); // Declara navigate
+
   return (
-    <Navbar bg="dark" variant="dark">
-      <Navbar.Brand href="/">Mi Página Web</Navbar.Brand>
-      <Nav className="ml-auto">
-        <Nav.Link href="/">Home</Nav.Link>
-        <Nav.Link href="/conceptos">Conceptos Básicos</Nav.Link>
-        <Nav.Link href="/redes">Introducción a Redes</Nav.Link>
-        {/* Agrega enlaces para los otros elementos del menú */}
-      </Nav>
-    </Navbar>
+    <div style={{ backgroundColor: 'black', display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
+      <Navbar bg="#023D9F" variant="dark" expand="lg">
+        <Navbar.Collapse id="navbar-nav">
+          <Button className="custom-btn" onClick={() => navigate('/')}>Home</Button> 
+          <Button className="custom-btn" onClick={() => navigate('/ConceptosBasicos')}>Conceptos Básicos</Button>
+          <Button className="custom-btn" onClick={() => navigate('/IntroduccionaRedes')}>Introducción a Redes</Button>
+          <Button className="custom-btn" onClick={() => navigate('/Funcionamiento')}>Funcionamiento</Button>
+          <Button className="custom-btn" onClick={() => navigate('/Estructura')}>Estructura</Button>
+          <Button className="custom-btn" onClick={() => navigate('/Recursos')}>Recursos</Button>
+          <Button className="custom-btn" onClick={() => navigate('/Bibliografia')}>Bibliografía</Button>
+        </Navbar.Collapse>
+      </Navbar>
+    </div>
   );
 }
 
-export default Navigation;
+export default MiNavbar;
+
+

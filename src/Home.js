@@ -29,13 +29,13 @@ function Home() {
             <Card.Body>
               <Card.Title style={{ textAlign: 'justify', fontSize: '28px'}}><strong>Biografía</strong></Card.Title>
               <Card.Text>
-                <p style={{ textAlign: 'justify', fontSize: '20px'}}><strong>Nacimiento y Origen</strong></p>
+                <p style={{ textAlign: 'justify', fontSize: '20px' }}><strong>Nacimiento y Origen</strong></p>
                 <p style={{ textAlign: 'justify', fontSize: '20px' }}>Lenyn Conde, nacido el 19 de noviembre de 1990 en la vibrante ciudad de Valencia, Venezuela, es un individuo multifacético que ha dedicado su vida a la educación, la tecnología y el bienestar físico.</p>
                 <p style={{ textAlign: 'justify', fontSize: '20px' }}><strong>Educación y Carrera Profesional</strong></p>
                 <p style={{ textAlign: 'justify', fontSize: '20px' }}>Lenyn Conde se graduó como Licenciado en Educación con mención en Matemáticas en la Universidad de Carabobo, destacándose como un apasionado educador desde el principio de su carrera.</p>
                 <p style={{ textAlign: 'justify', fontSize: '20px' }}>Además de su pasión por la educación, Lenyn es un cocinero profesional egresado de la Escuela Culinaria Le Gourmet's.</p>
                 <p style={{ textAlign: 'justify', fontSize: '20px' }}>Actualmente, Lenyn Conde está cursando una especialización en Telemática e Informática en la Educación a Distancia en la Universidad Nacional Abierta. Este camino académico refleja su compromiso constante con la mejora de la educación a través de la tecnología.</p>
-                <p style={{ textAlign: 'justify', fontSize: '20px' }}>Además de sus logros académicos y culinarios, Lenyn es un amante apasionado de la calistenia, una disciplina de entrenamiento que utiliza el peso corporal para desarrollar la fuerza y la agilidad. Su dedicación a la calistenia refleja su compromiso con el bienestar físico y la salud.</p>
+                <p style={{ textAlign: 'justify', fontSize: '20px' }}>Sumado a sus logros académicos y culinarios, Lenyn es un amante apasionado de la calistenia, una disciplina de entrenamiento que utiliza el peso corporal para desarrollar la fuerza y la agilidad. Su dedicación a la calistenia refleja su compromiso con el bienestar físico y la salud.</p>
               </Card.Text>
             </Card.Body>
           </Card>

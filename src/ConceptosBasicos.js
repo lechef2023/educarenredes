@@ -27,7 +27,7 @@ function ConceptosBasicos() {
                   alt="Imagen"
                   style={{ width: '30%', margin: '0 auto' }}
                 />
-                <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px' }}>
+                <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px', marginTop: '20px' }}>
                   Fernández-Navajas (2017) describe la telemática como "una disciplina que fusiona la informática y las comunicaciones para crear infraestructuras y sistemas que posibilitan la interconexión y la transmisión de datos a distancia."
                 </p>
               </div>
@@ -49,7 +49,7 @@ function ConceptosBasicos() {
                   alt="Imagen"
                   style={{ width: '30%', margin: '0 auto' }}
                 />
-                <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px' }}>
+                <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px', marginTop: '20px' }}>
                   Shneiderman (2016) argumenta que los medios interactivos son "herramientas digitales que permiten a las personas realizar acciones, explorar información y colaborar de manera efectiva a través de la manipulación de datos y la respuesta inmediata".
                 </p>
               </div>
@@ -71,7 +71,7 @@ function ConceptosBasicos() {
                   alt="Imagen"
                   style={{ width: '30%', margin: '0 auto' }}
                 />
-                <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px' }}>
+                <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px', marginTop: '20px' }}>
                   Una "red telemática" podría entenderse como una infraestructura de comunicaciones que combina tecnologías de telecomunicaciones e informática para permitir la transmisión, procesamiento y gestión de información a distancia, generalmente a través de redes de datos.
                 </p>
               </div>
@@ -93,7 +93,7 @@ function ConceptosBasicos() {
                   alt="Imagen"
                   style={{ width: '30%', margin: '0 auto' }}
                 />
-                <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px' }}>
+                <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px', marginTop: '20px' }}>
                   Un usuario es cualquier persona o entidad que interactúa con algún tipo de sistema o tecnología, y su experiencia y satisfacción son aspectos cruciales a considerar en el diseño y la implementación de sistemas y productos.
                 </p>
               </div>
@@ -115,7 +115,7 @@ function ConceptosBasicos() {
                   alt="Imagen"
                   style={{ width: '30%', margin: '0 auto' }}
                 />
-                <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px' }}>
+                <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px', marginTop: '20px' }}>
                   Grupos de interés telemáticos se refiere a comunidades, redes o colectivos que se forman y operan en el entorno digital, utilizando tecnologías de la información y la comunicación (TIC) para promover sus intereses comunes, intercambiar información, colaborar en línea y participar en actividades relacionadas con un tema específico o una causa compartida. Estos grupos pueden abordar una amplia variedad de temas, desde cuestiones sociales y políticas hasta intereses profesionales y culturales, y utilizan plataformas digitales, como redes sociales, foros en línea, aplicaciones de mensajería y sitios web, para facilitar la comunicación y la interacción entre sus miembros. Los grupos de interés telemáticos desempeñan un papel importante en la sociedad digital actual al permitir la participación activa y la movilización en torno a asuntos de relevancia y preocupación mutua.
                 </p>
               </div>
@@ -137,7 +137,7 @@ function ConceptosBasicos() {
                   alt="Imagen"
                   style={{ width: '30%', margin: '0 auto' }}
                 />
-                <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px' }}>
+                <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px', marginTop: '20px' }}>
                   Barabási (2003) define las redes como "sistemas de entidades interconectadas de manera que cada entidad está conectada con un número finito de otras entidades".
                 </p>
               </div>
@@ -159,7 +159,7 @@ function ConceptosBasicos() {
                   alt="Imagen"
                   style={{ width: '30%', margin: '0 auto' }}
                 />
-                <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px' }}>
+                <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px', marginTop: '20px' }}>
                   Tim Berners-Lee (1996) define Internet como "una red mundial de computadoras conectadas entre sí, que permite a los usuarios compartir información y recursos".
                 </p>
               </div>
@@ -181,7 +181,7 @@ function ConceptosBasicos() {
                   alt="Imagen"
                   style={{ width: '30%', margin: '0 auto' }}
                 />
-                <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px' }}>
+                <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px', marginTop: '20px' }}>
                   Stallings (2013) define los protocolos como "conjuntos de reglas que definen cómo se comunican los sistemas informáticos".
                 </p>
               </div>
@@ -203,7 +203,7 @@ function ConceptosBasicos() {
                   alt="Imagen"
                   style={{ width: '30%', margin: '0 auto' }}
                 />
-                <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px' }}>
+                <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px', marginTop: '20px' }}>
                   W3C (2023) define la WWW como "un sistema global de documentos de hipertexto interconectados que se pueden acceder a través de Internet"
                 </p>
               </div>

@@ -153,14 +153,13 @@ function ConceptosBasicos() {
               <h5 className="card-title">Internet</h5>
             </div>
             <div className="card-body">
-              <div className="card-content">
+              <div className="card-content text-center">
                 <img
                   src={conceptos_basicos_internet}
                   alt="Imagen"
-                  className="card-img-left"
-                  style={{ width: '20%' }}
+                  style={{ width: '30%', margin: '0 auto' }}
                 />
-                <p className="card-text">
+                <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px' }}>
                   Tim Berners-Lee (1996) define Internet como "una red mundial de computadoras conectadas entre sí, que permite a los usuarios compartir información y recursos".
                 </p>
               </div>
@@ -176,14 +175,13 @@ function ConceptosBasicos() {
               <h5 className="card-title">Protocolos</h5>
             </div>
             <div className="card-body">
-              <div className="card-content">
+              <div className="card-content text-center">
                 <img
                   src={conceptos_basicos_protocolos}
                   alt="Imagen"
-                  className="card-img-left"
-                  style={{ width: '20%' }}
+                  style={{ width: '30%', margin: '0 auto' }}
                 />
-                <p className="card-text">
+                <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px' }}>
                   Stallings (2013) define los protocolos como "conjuntos de reglas que definen cómo se comunican los sistemas informáticos".
                 </p>
               </div>
@@ -199,14 +197,13 @@ function ConceptosBasicos() {
               <h5 className="card-title">World Wide Web</h5>
             </div>
             <div className="card-body">
-              <div className="card-content">
+              <div className="card-content text-center">
                 <img
                   src={conceptos_basicos_world_wide_web}
                   alt="Imagen"
-                  className="card-img-left"
-                  style={{ width: '20%' }}
+                  style={{ width: '30%', margin: '0 auto' }}
                 />
-                <p className="card-text">
+                <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px' }}>
                   W3C (2023) define la WWW como "un sistema global de documentos de hipertexto interconectados que se pueden acceder a través de Internet"
                 </p>
               </div>

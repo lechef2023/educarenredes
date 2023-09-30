@@ -9,10 +9,12 @@ import conceptos_basicos_redes from './images/conceptos_basicos_redes.jpg';
 import conceptos_basicos_internet from './images/conceptos_basicos_internet.jpg';
 import conceptos_basicos_protocolos from './images/conceptos_basicos_protocolos.jpg';
 import conceptos_basicos_world_wide_web from './images/conceptos_basicos_world_wide_web.jpg';
+import Footer from './components/Footer';
 
 function ConceptosBasicos() {
   return (
-    <Accordion defaultActiveKey="0">
+    <div>
+      <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
         <Accordion.Header>Telemática</Accordion.Header>
         <Accordion.Body style={{ background: '#CCF4F9' }}>
@@ -212,6 +214,8 @@ function ConceptosBasicos() {
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
+    <Footer />
+    </div>
   );
 }
 

@@ -1,10 +1,11 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import imagen_perfil from './images/imagen_perfil.png';
+import Footer from '../src/components/Footer';
 
 function Home() {
   return (
-    <div>
+    <div className="main-container">
       <div className="card-container">
         <div
           className="image-container"
@@ -27,7 +28,7 @@ function Home() {
         <div className="card-text-container" style={{ marginTop: '-40px' }}>
           <Card style={{ transform: 'scale(0.75)' }}>
             <Card.Body>
-              <Card.Title style={{ textAlign: 'justify', fontSize: '28px'}}><strong>Biografía</strong></Card.Title>
+              <Card.Title style={{ textAlign: 'justify', fontSize: '28px' }}><strong>Biografía</strong></Card.Title>
               <Card.Text>
                 <p style={{ textAlign: 'justify', fontSize: '20px' }}><strong>Nacimiento y Origen</strong></p>
                 <p style={{ textAlign: 'justify', fontSize: '20px' }}>Lenyn Conde, nacido el 19 de noviembre de 1990 en la vibrante ciudad de Valencia, Venezuela, es un individuo multifacético que ha dedicado su vida a la educación, la tecnología y el bienestar físico.</p>
@@ -41,6 +42,7 @@ function Home() {
           </Card>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

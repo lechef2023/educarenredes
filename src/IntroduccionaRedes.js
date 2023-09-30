@@ -3,11 +3,13 @@ import { Accordion } from 'react-bootstrap';
 import introduccion_a_redes_redes_informaticas from './images/introduccion_a_redes_redes_informaticas.jpg';
 import introduccion_a_redes_tipos_de_redes from './images/introduccion_a_redes_tipos_de_redes.jpg';
 import introduccion_a_redes_protocolos from './images/introduccion_a_redes_protocolos.jpg';
+import Footer from './components/Footer';
 
 
 function ConceptosBasicos() {
   return (
-    <Accordion defaultActiveKey="0">
+    <div>
+      <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
         <Accordion.Header>Redes Informáticas</Accordion.Header>
         <Accordion.Body style={{ background: '#CCF4F9' }}>
@@ -112,6 +114,8 @@ function ConceptosBasicos() {
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
+    <Footer/>
+    </div>
   );
 }
 

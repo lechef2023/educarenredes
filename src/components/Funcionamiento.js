@@ -8,11 +8,13 @@ import funcionamiento_traductores from '../images/funcionamiento_traductores.jpg
 import funcionamiento_foros_electronicos from '../images/funcionamiento_foros_electronicos.jpg';
 import funcionamiento_telnet from '../images/funcionamiento_telnet.jpg';
 import funcionamiento_internet_2 from '../images/funcionamiento_internet_2.jpg';
+import Footer from './Footer';
 
 
 function Funcionamiento() {
   return (
-    <Accordion defaultActiveKey="0">
+    <div>
+      <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
         <Accordion.Header>Servicios Interactivos en Tiempo Real</Accordion.Header>
         <Accordion.Body style={{ background: '#CCF4F9' }}>
@@ -301,6 +303,8 @@ function Funcionamiento() {
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
+    <Footer/>
+    </div>
   );
 }
 

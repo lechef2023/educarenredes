@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
+import Footer from './components/Footer';
 
 function Bibliografia() {
   return (
@@ -27,6 +28,7 @@ function Bibliografia() {
               </Card.Text>
             </Card.Body>
           </Card>
+          <Footer/>
         </div>
       </div>
     </div>

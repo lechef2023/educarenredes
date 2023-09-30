@@ -7,10 +7,12 @@ import estructura_routers from '../images/estructura_routers.jpg';
 import estructura_firewall from '../images/estructura_firewall.jpg';
 import funcionamiento_formato_direcciones_web from '../images/funcionamiento_formato_direcciones_web.jpg';
 import funcionamiento_formato_direcciones_correo from '../images/funcionamiento_formato_direcciones_correo.jpg';
+import Footer from './Footer';
 
 function Funcionamiento() {
   return (
-    <Accordion defaultActiveKey="0">
+    <div>
+      <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
         <Accordion.Header>Hardware</Accordion.Header>
         <Accordion.Body style={{ background: '#CCF4F9' }}>
@@ -295,6 +297,8 @@ function Funcionamiento() {
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
+    <Footer/>
+    </div>
   );
 }
 

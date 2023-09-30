@@ -204,7 +204,7 @@ function ConceptosBasicos() {
                   style={{ width: '30%', margin: '0 auto' }}
                 />
                 <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px', marginTop: '20px' }}>
-                  W3C (2023) define la WWW como "un sistema global de documentos de hipertexto interconectados que se pueden acceder a través de Internet"
+                  W3C (2023) define la WWW como "un sistema global de documentos de hipertexto interconectados que se pueden acceder a través de Internet".
                 </p>
               </div>
             </div>

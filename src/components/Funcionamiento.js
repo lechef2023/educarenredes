@@ -1,13 +1,13 @@
 import React from 'react';
 import { Accordion } from 'react-bootstrap';
-import funcionamiento_Servicios_interactivos_en_tiempo_real from './images/funcionamiento_Servicios_interactivos_en_tiempo_real.jpg';
-import funcionamiento_como_viaja_la_informacion_en_internet from './images/funcionamiento_como_viaja_la_informacion_en_internet.jpg';
-import funcionamiento_buscadores from './images/funcionamiento_buscadores.jpg';
-import funcionamiento_navegadores from './images/funcionamiento_navegadores.jpg';
-import funcionamiento_traductores from './images/funcionamiento_traductores.jpg';
-import funcionamiento_foros_electronicos from './images/funcionamiento_foros_electronicos.jpg';
-import funcionamiento_telnet from './images/funcionamiento_telnet.jpg';
-import funcionamiento_internet_2 from './images/funcionamiento_internet_2.jpg';
+import funcionamiento_Servicios_interactivos_en_tiempo_real from '../images/funcionamiento_Servicios_interactivos_en_tiempo_real.jpg';
+import funcionamiento_como_viaja_la_informacion_en_internet from '../images/funcionamiento_como_viaja_la_informacion_en_internet.jpg';
+import funcionamiento_buscadores from '../images/funcionamiento_buscadores.jpg';
+import funcionamiento_navegadores from '../images/funcionamiento_navegadores.jpg';
+import funcionamiento_traductores from '../images/funcionamiento_traductores.jpg';
+import funcionamiento_foros_electronicos from '../images/funcionamiento_foros_electronicos.jpg';
+import funcionamiento_telnet from '../images/funcionamiento_telnet.jpg';
+import funcionamiento_internet_2 from '../images/funcionamiento_internet_2.jpg';
 
 
 function Funcionamiento() {
@@ -74,13 +74,13 @@ function Funcionamiento() {
                   El servidor divide la solicitud en paquetes de datos. Cada paquete de datos tiene una dirección de destino, que es la dirección IP del dispositivo que solicita el recurso.
                 </p>
                 <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px' }}>
-                  Los paquetes de datos se envían a través de la red de computadoras. Los routers son dispositivos que dirigen los paquetes de datos hacia su destino
+                  Los paquetes de datos se envían a través de la red de computadoras. Los routers son dispositivos que dirigen los paquetes de datos hacia su destino.
                 </p>
                 <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px' }}>
                   Los paquetes de datos pueden viajar a través de diferentes medios, como cables de fibra óptica, cables de cobre o señales inalámbricas.
                 </p>
                 <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px' }}>
-                  Cuando los paquetes de datos llegan al dispositivo de destino, se vuelven a ensamblar para formar la solicitud original
+                  Cuando los paquetes de datos llegan al dispositivo de destino, se vuelven a ensamblar para formar la solicitud original.
                 </p>
               </div>
             </div>
@@ -156,7 +156,7 @@ function Funcionamiento() {
                   Muestran las páginas web en la pantalla del ordenador: Los navegadores utilizan un motor de renderizado para mostrar las páginas web en la pantalla del ordenador.
                 </p>
                 <p className="card-text" style={{ textAlign: 'justify', fontSize: '18px' }}>
-                  Permite a los usuarios interactuar con las páginas web: Los navegadores permiten a los usuarios interactuar con las páginas web mediante enlaces, botones y otros elementos
+                  Permite a los usuarios interactuar con las páginas web: Los navegadores permiten a los usuarios interactuar con las páginas web mediante enlaces, botones y otros elementos.
                 </p>
               </div>
             </div>

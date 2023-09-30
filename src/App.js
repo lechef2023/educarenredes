@@ -6,9 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Navbar from './components/Navbar';
 import Home from './Home';
-import ConceptosBasicos from './ConceptosBasicos';
+import ConceptosBasicos from './ConceptosBasicos'
 import IntroduccionaRedes from './IntroduccionaRedes';
-import Funcionamiento from './Funcionamiento';
+import Funcionamiento from './components/Funcionamiento';
 import Estructura from './components/Estructura';
 import Recursos from './components/Recursos';
 import Bibliografia from './Bibliografia';

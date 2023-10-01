@@ -22,7 +22,6 @@ const paragraphStyle = {
 function Footer() {
   return (
     <footer style={footerStyle}>
-      <p style={paragraphStyle}>© 2023 Educar en Redes</p>
       <a
         href="https://www.linkedin.com/in/lenyn-conde-837767260/"
         target="_blank"
@@ -31,6 +30,7 @@ function Footer() {
       >
         LinkedIn
       </a>
+      <p style={paragraphStyle}>© 2023 Educar en Redes</p>
     </footer>
   );
 }
